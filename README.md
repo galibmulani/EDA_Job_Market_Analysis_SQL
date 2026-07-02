@@ -1,7 +1,7 @@
 # Exploratory Data Analysis w/ SQL: Job Market Analysis
 
 
-![Project Workflow](./images/Analysis_WorkFlow.png)
+![Project Workflow](./Images/Analysis_WorkFlow.png)
 
 
 # Brief Summary
@@ -34,7 +34,7 @@ Job Market Analysis wants to answer questions like:
 - **Highest Paid Skill**: *which skills command the highest salaries?*
 - **Best Trade-off**: *what is the optimal skill set balancing demand and compensation?*
 
-![Data Warehouse](./images/DATA_WAREHOUSE_IMG.png)
+![Data Warehouse](./Images/DATA_WAREHOUSE_IMG.png)
 # Tech Stack
 
 - **Query Engine**: Google **BigQuery**.
@@ -45,7 +45,7 @@ Job Market Analysis wants to answer questions like:
 - **Storage**: Google **Cloud Storage**.
 
 # Repository Structure
-![Project Directory Structure](./images/eda_project_folder_to_files_tree.svg)
+![Project Directory Structure](./Images/eda_project_folder_to_files_tree.svg)
 
 # Analytical Overview
 -  ### Query Structure:
@@ -72,13 +72,13 @@ Skills clustered at the bottom-left of the scatter plot (demand ~110–150, opti
 
 # Visualization(Non Technical Viewers):
 - **Top Demand Skills Analysis**
-![top demand skills](./images/skills_demand_chart.jpg)
+![top demand skills](./Images/skills_demand_chart.jpg)
 - **Top Paying Skills Analysis**
-![skills demand by salary](./images/skills_pay_vs_demand_combo.png)
+![skills demand by salary](./Images/skills_pay_vs_demand_combo.png)
 
 
 - **Optimal Skills Analysis**
-![Demand By Pay](./images/skills_scatter_demand_vs_optimal.png)
+![Demand By Pay](./Images/skills_scatter_demand_vs_optimal.png)
 
 
 # SQL Skills Demonstrated
