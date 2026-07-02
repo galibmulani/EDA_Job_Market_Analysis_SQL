@@ -1,7 +1,7 @@
 # Exploratory Data Analysis w/ SQL: Job Market Analysis
 
 
-![Project Workflow](Analysis_WorkFlow.png)
+![Project Workflow](./images/Analysis_WorkFlow.png)
 
 
 # Brief Summary
@@ -34,7 +34,7 @@ Job Market Analysis wants to answer questions like:
 - **Highest Paid Skill**: *which skills command the highest salaries?*
 - **Best Trade-off**: *what is the optimal skill set balancing demand and compensation?*
 
-![Data Warehouse](./DATA_WAREHOUSE_IMG.png)
+![Data Warehouse](./images/DATA_WAREHOUSE_IMG.png)
 # Tech Stack
 
 - **Query Engine**: Google **BigQuery**.
@@ -45,7 +45,7 @@ Job Market Analysis wants to answer questions like:
 - **Storage**: Google **Cloud Storage**.
 
 # Repository Structure
-![Project Directory Structure](./eda_project_folder_to_files_tree.svg)
+![Project Directory Structure](./images/eda_project_folder_to_files_tree.svg)
 
 # Analytical Overview
 -  ### Query Structure:
@@ -69,14 +69,17 @@ Airflow, AWS, and Spark sit in the upper-right of the scatter plot — solidly h
 
     **5. Long-tail skills (Go, R, MongoDB, GitHub) show diminishing returns**
 Skills clustered at the bottom-left of the scatter plot (demand ~110–150, optimal score 0.65–0.67) offer the least combined value — lower demand and lower optimal-fit scores. These are best treated as supplementary skills rather than primary learning investments.
+
 # Visualization(Non Technical Viewers):
 - **Top Demand Skills Analysis**
-![top demand skills](./skills_demand_chart.jpg)
+![top demand skills](./images/skills_demand_chart.jpg)
 - **Top Paying Skills Analysis**
-![skills demand by salary](./skills_pay_vs_demand_combo.png)
+![skills demand by salary](./images/skills_pay_vs_demand_combo.png)
+
 
 - **Optimal Skills Analysis**
-![Demand By Pay](./skills_scatter_demand_vs_optimal.png)
+![Demand By Pay](./images/skills_scatter_demand_vs_optimal.png)
+
 
 # SQL Skills Demonstrated
 
